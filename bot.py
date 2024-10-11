@@ -1,7 +1,8 @@
 import telebot
 from telebot import types
+from token import BOT_TOKEN
 
-token = '8015756822:AAGk1uyMJlvOkGSFJ7NUyMlfSO2SlWgOCKA'
+token = BOT_TOKEN
 bot = telebot.TeleBot(token)
 
 # Словарь для отслеживания состояния пользователей
